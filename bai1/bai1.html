@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport News Navigation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+    <link href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eee;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #e5e5e5;
+            padding: 15px 60px;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            font-family: 'Dancing Script', cursive;
+            color: black;
+        }
+        .home{
+            background-color: black;
+            color: black;
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            padding: 0;
+            margin: 0;
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+            align-items:center ;
+            gap: 30px;
+            padding: 0;
+            margin: 0;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            text-decoration: none;
+            font-size: 16px;
+            color: gray;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover,
+        .nav-links a:first-child {
+            color: rgb(97, 96, 96);
+            font-weight: bold;
+        }
+        .search-btn {
+            background-color: gray;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            gap: 5px;
+        }
+        .search-btn i {
+            font-size: 14px;
+        }
+        .search-btn:hover {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Sport News</div>
+        <ul class="nav-links">
+             <div class="Home">Home</div>
+            <li><a href="">Category</a></li>
+            <li><a href="">Trending News</a></li>
+            <li><a href="">Recent News</a></li>
+            <li><a href="">Clubs Ranking</a></li>
+            <li><a href="">Sports Article</a></li>
+        </ul>
+        <button class="search-btn">
+            <i class="fas fa-search"></i> Search
+        </button>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Categories</title>
+  <style>
+    body {
+        margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, auto);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .text-box {
+      background-color: #f0f0f0;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+      padding: 20px;
+    }
+    .text-box span {
+      background: linear-gradient(to bottom, #161616, #ccc); 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .image-box {
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .image-box img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Category</h2>
+  <div class="grid">
+    <div class="text-box">FOOTBALL</div>
+    <div class="image-box">
+      <img src="https://th.bing.com/th/id/OIP.rAnodRAypoVG2mnE1O7N7AHaEK?rs=1&pid=ImgDetMain " alt="Basketball">
+    </div>
+    <div class="text-box">CAR SPORT</div>
+    <div class="image-box">
+      <img src="https://th.bing.com/th/id/OIP.GZrjsqFBgR8PyC2h5VZrRAHaE8?rs=1&pid=ImgDetMain" alt="Table Tennis">
+    </div>
+    <div class="image-box">
+      <img src="https://hanoispiritofplace.com/wp-content/uploads/2017/06/hinh-nen-bong-da-dep-12.jpg" alt="Soccer">
+    </div>
+    <div class="text-box">BASKET BALL</div>
+    <div class="image-box">
+      <img src="https://th.bing.com/th/id/OIP.Zd41Gmmk5XFcAiZrYxaJIgHaEK?rs=1&pid=ImgDetMain" alt="Racing">
+    </div>
+    <div class="text-box">TABLE TENNIS</div>
+  </div>
+</body>
+</html>
