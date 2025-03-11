@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            display: flex;
+            justify-items: center;
+            padding: 20px;
+        }
+        .card{
+            background: white;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .tag{
+            position: absolute;
+            background: rgb(0, 0, 0);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 5px;
+            font-size: 10px;
+            top: 10px;
+            right: 10px;
+            border: 2px solid white;
+        }
+        .container{
+            padding: 15px;
+
+        }
+        .author{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .author img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .date{
+            color: gray;
+            font-size: 14px;
+        }
+        .title{
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+
+        }
+        .descripton{
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div style="position: relative;">
+            <img src="https://phunugioi.com/wp-content/uploads/2021/11/Hinh-anh-doi-tuyen-Viet-Nam-niem-tu-hao-dan-toc-1.jpg" alt="TuyenVietNam">
+            <span class="tag">Football</span>
+        </div>
+        <div class="container">
+            <div class="author">
+                <img src="https://th.bing.com/th/id/OIP.zL-arqwpsfh8rmTEDzhbsQHaE7?rs=1&pid=ImgDetMain"alt="XuanSon">
+                <span>XuanSon</span>
+            </div>
+            <div class="date">04 June 2024</div>
+            <div class="title">5 Exercises Football Players Should Be Using To Develop Strength</div>
+            <div class="description">
+            This article was written by Jake Willhoite from Healthlisted.com. Strength in basketball isn’t all about a massive body mass or ripped muscles.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
